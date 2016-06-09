@@ -3,12 +3,9 @@
   "version": "0.6.0",
   "description": "Javscript wrapper for the Infusionsoft API",
   "main": "index.js",
-  "scripts": {
-    "test": "grunt test"
-  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bvalosek/infusionsoft-api"
+    "url": "git@github.com:CarSaver/infusionsoft-api.git"
   },
   "keywords": [
     "infusionsoft",
@@ -20,14 +17,16 @@
     "url": "https://github.com/bvalosek/infusionsoft-api/issues"
   },
   "dependencies": {
-    "typedef": "~0.13.2",
-    "xmlrpc": "~1.1.0",
-    "underscore": "~1.5.1",
-    "q": "~0.9.6",
-    "inflection": "~1.2.6"
+    "inflection": "^1.2",
+    "passport-infusionsoft": "0.0.3",
+    "q": "^0.9.6",
+    "typedef": "^0.13.2",
+    "underscore": "^1.5",
+    "xmlrpc": "^1.1"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.2",
-    "grunt-infusionsoft": "~0.6.1"
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^0.6.2",
+    "grunt-infusionsoft": "^0.6.1"
   }
 }
