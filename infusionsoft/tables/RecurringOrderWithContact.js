@@ -12,6 +12,9 @@ module.exports = RecurringOrderWithContact = require('typedef')
     __static__field__number__read__ContactId:
         'ContactId',
 
+    __static__field__number__read__OriginatingOrderId:
+        'OriginatingOrderId',
+
     __static__field__number__read__ProgramId:
         'ProgramId',
 
